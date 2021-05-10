@@ -12,7 +12,7 @@ urlpatterns = [
     url(r'^$', index),
     url(r'^health$', health),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^hello$", hello),
+    url(r'^hello$', hello),
 ]
 
 if settings.DEBUG:
