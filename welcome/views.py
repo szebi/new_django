@@ -24,5 +24,5 @@ def health(request):
     return HttpResponse(PageView.objects.count())
 
 def hello(request):
-    return HttpResponse("Hello World 2")
+    return HttpResponse("Hello World 22")
 
